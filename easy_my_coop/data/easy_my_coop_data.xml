@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openerp>
-    <data noupdate="1">
+<odoo>
+    <data noupdate="0">
         <record model="ir.module.category"
                 id="module_category_cooperator_management">
             <field name="name">Cooperative Management</field>
             <field name="description">Manage your cooperative.</field>
             <field name="sequence">3</field>
         </record>
+    </data>
+    <data noupdate="1">
 
         <!-- Product -->
         <record id="product_category_company_share" model="product.category">
@@ -41,4 +43,4 @@
             <field eval="1" name="number_increment"/>
         </record>
     </data>
-</openerp>
+</odoo>
